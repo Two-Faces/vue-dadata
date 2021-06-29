@@ -56,6 +56,7 @@ export default {
 | Prop  | Required | Type | Description |
 | ------------- | ------------- | ------------- | ------------- |
 | token  | Yes  | string  | Auth token DaData.ru  |
+| nativeId  | No  | string  | Native HTML ID  |
 | placeholder  | No  | string  | Text placeholder  |
 | query  | No  | string  | Initial state input field  |
 | autoload  | No  | boolean  | If `true`, then a request for tips will be initialed in the background in the created hook  |

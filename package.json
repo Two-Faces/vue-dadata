@@ -1,13 +1,13 @@
 {
-  "name": "vue-dadata",
-  "version": "1.4.10",
+  "name": "exarcheia-vue-dadata",
+  "version": "1.4.12",
   "description": "Vue component for hinting addresses using dadata.ru",
   "main": "dist/vuedadatacomponent.umd.js",
   "module": "dist/vuedadatacomponent.esm.js",
   "unpkg": "dist/vuedadatacomponent.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ikloster03/vue-dadata.git"
+    "url": "git+https://github.com/Two-Faces/vue-dadata.git"
   },
   "keywords": [
     "vue",
@@ -27,6 +27,9 @@
     },
     {
       "name": "Ilya Kiselev"
+    },
+    {
+      "name": "Anton Bardov"
     }
   ],
   "license": "MIT",

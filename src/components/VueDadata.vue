@@ -4,6 +4,7 @@
       <div :class="`${defaultClass}__search`">
         <input
           type="text"
+          :id="nativeId"
           :name="inputName"
           :class="`${defaultClass}__input`"
           :disabled="disabled"
@@ -62,6 +63,7 @@ import { Debounce } from 'vue-debounce-decorator';
 export default class VueDadata extends Vue {
   @Prop({ type: String, required: true }) public readonly token!: string;
   @Prop(String) public readonly query?: string;
+  @Prop(String) public readonly nativeId?: string;
   @Prop(String) public readonly placeholder?: string;
   @Prop(Boolean) public readonly autoload?: boolean;
   @Prop(Number) public readonly count?: number;
